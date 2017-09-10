@@ -1,0 +1,11 @@
+This is an updated copy of the WinBGIm sources from http://winbgim.codecutter.org/.
+
+The changes that have been made are minimal, encompasing the following:
+  - const correctness repairs
+  - removed bgi.cxx (and replaced it with ..\g++bgi.bat)
+  - fixed an typo (where two function arguments had the same name)
+  - deleted the extraneous copy of graphics.h
+  - renamed and updated the Makefile to work with modern copies of MinGW, 
+    including minor repairs
+  
+2017-09-09 Michael Thomas Greer
